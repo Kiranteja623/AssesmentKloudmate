@@ -77,7 +77,7 @@ Design an architecture diagram for a 3 Tier web application:
       * We have almost setup or architecture. However, we cannot SSH into the EC2 instances in the private subnet. This is because have not created our bastion host. So the last part of this article will show how to create the bastion host.
   12. Bastion Host: The bastion host is just an EC2 instance that sits in the public subnet. The best practice is to only allow SSH to this instance from your trusted IP. To create a bastion host, navigate to the EC2 instance page and create an EC2 instance in the demo-public-subnet-1 subnet within our VPC. Also, ensure that it has public IP.
      ![Preview](q1-29.png)
-     ![Preview](q2-30.png)
+     ![Preview](q1-30.png)
 Conclusion: 
 -----------
 * There were lots of clicking and configurations when using the console to set up a three-tier architecture in AWS. 
