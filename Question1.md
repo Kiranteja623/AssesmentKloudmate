@@ -81,3 +81,4 @@ Design an architecture diagram for a 3 Tier web application:
 Conclusion: 
 -----------
 * There were lots of clicking and configurations when using the console to set up a three-tier architecture in AWS. 
+* Here we have setup a complete 3 tier architecture in AWS.
